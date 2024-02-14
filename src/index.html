@@ -8,46 +8,98 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--header logo block-->
-        <div>
-            <h4>Header Logo</h4>
-            <ul class="links">
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </div>
-                                           
-        <!--this website is awesome block-->
-        <div>
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. 
-                It's a smaller font and the color is lower contrast.</p>
-            <Button>Sign up</Button>
-        </div>
+        <div class="header-top">
+            <div class="header-container">
+                <!--header logo block-->
+                <div class="left">
+                    <h4 class=" logo">Header Logo</h4>
+                </div>
 
-        <!--random info block-->
-        <div>
-            <h2>Some random information.</h2>
-            <p>this is some subtext under an illustration or image</p>
-            <p>this is some subtext under an illustration or image</p>
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-<!-- 
-        <!/--quote block--/>
-        <div>
+                <div class="right">
+                    <ul class="links">
+                        <li><a href="google.com">header link one</a></li>
+                        <li><a href="google.com">header link two</a></li>
+                        <li><a href="google.com">header link three</a></li>
+                    </ul>
+                </div>
+            </div>     
+        </div>   
 
-        </div>
-
-        <!/--call to action block--/>
-        <div>
-
+        <div class="header-main">
+            <!--this website is awesome block-->
+            <div class="hero-container">
+                <div class="awesome">
+                    <h1>This website is awesome</h1>
+                </div>
+                <div class="subtext">
+                    <p>This website has some subtext that goes here under the main title. 
+                            It's a smaller font and the color is lower contrast.</p>
+                </div>
+                <button class="button">Sign up</button> 
+                
+            </div>
+            <img class="grey-box" alt="placeholder image"> 
         </div>
 
-        <!/--footer block--/>
-        <div>
-
+        <div class="info-body">
+            <div class="image-box">
+                <!--random info block-->
+                <div>
+                    <h2>Some random information.</h2>
+                </div>
+                <div class="image-container">    
+                    <div class="image-info">
+                        <img alt="placeholder image">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="image-info">
+                        <img alt="placeholder image">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="image-info">
+                        <img alt="placeholder image">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="image-info">
+                        <img alt="placeholder image">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                </div>
+            </div>
         </div>
--->
+
+        <div class="quote-section">
+            <!--quote block-->
+                <div class="quote">
+                    <p>This is an inspiring quote, or a testimonial from a customer.
+                        Maybe it's just filling up space, or maybe people will actually
+                        read it. Who knows? All I know is that it looks nice.
+                    </p>
+                    <div class="thor">
+                        <h6>-Thor, God of Thunder</h6>
+                    </div>
+                </div>
+        </div>     
+
+        <div class="ad-section">
+            <div class="ad-container">
+                <!--call to action block-->
+                <div class="box">
+                    <h4>Call to action! It's time!</h4>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                    <button id="bottom" class="button">Sign up</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="footer-container">
+                <!--footer block-->
+                <div>
+                    <p>Copyright The Odin Project 2021</p>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
